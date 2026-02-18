@@ -45,3 +45,37 @@ Certifique-se de ter o Python instalado. As dependências são apenas `numpy` (p
 
 ```bash
 pip install numpy matplotlib
+```
+### 3. Como Rodar
+Baixe o arquivo .py deste repositório e execute-o com o Python.
+Para rodar a simulação completa (COVID + Vacina):
+```bash
+python simulacao_doenca_controlada.py
+```
+Para rodar a simulação da epidemia sem vacina, que demonstra o efeito de Greenberg-Hastings para meios excitáveis:
+```bash
+python simulacao_epidemia_ac.py
+```
+### 📄 Estrutura do Projeto
+
+/
+├── simulacao_epidemia_ac.py   # Código principal (Simulação Completa)
+├── simulacao_doenca_controlada.py # Código adaptado (Simulação Covid)
+├── docs/
+│   └── Artigo_SIRS_Automatos.pdf   # Artigo completo formatado (LaTeX)
+├── assets/
+│   ├── ondas.png
+│   └── fim.png
+└── README.md
+
+### 📚 Referências
+
+Este trabalho foi baseado nas seguintes obras clássicas sobre Autômatos Celulares:
+
+Schiff, J. L. (2008). Cellular Automata: A Discrete View of the World. Wiley-Interscience.
+
+Toffoli, T., & Margolus, N. (1987). Cellular Automata Machines. MIT Press.
+
+
+
+
