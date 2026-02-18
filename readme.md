@@ -15,13 +15,13 @@ Desenvolvido como parte da disciplina de Computação Gráfica/Modelagem na **UF
 ### 1. Cenário Endêmico (Sem Vacina)
 A doença se auto-organiza em **ondas espirais**. Os focos de infecção giram em torno de núcleos imunes, mantendo a doença viva indefinidamente (estado meta-estável).
 
-![Ondas Espirais](assets/espiral.png)
+![Ondas Espirais](assets/ciclos_de_infeccao.png)
 *(Exemplo da formação de espirais no modelo Greenberg-Hastings)*
 
 ### 2. Cenário Pandêmico & Vacinação (COVID-19)
 Simulação de ondas recorrentes (variantes) e o impacto de uma **campanha de vacinação**. Os pontos azuis (vacinados) criam barreiras que quebram a propagação do vírus (pontos vermelhos).
 
-![Vacinação e Extinção](assets/vacina_final.png)
+![Vacinação e Extinção](assets/fim.png)
 *(Visualização do efeito de percolação: a vacina bloqueia o vírus e extingue a epidemia)*
 
 ---
@@ -64,7 +64,7 @@ python simulacao_epidemia_ac.py
 ├── docs/
 │   └── Artigo_SIRS_Automatos.pdf   # Artigo completo formatado (LaTeX)
 ├── assets/
-│   ├── ondas.png
+│   ├── ciclos_de_infeccao.png
 │   └── fim.png
 └── README.md
 
